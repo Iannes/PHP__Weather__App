@@ -5,7 +5,7 @@ require('simple_html_dom.php');
 	$city = $_GET['city'];
 
 	/* === Make sure there is no white space in user's input ==== */
-	$city = str_replace(' ', '', $city);
+	$city = str_replace(' ', '+', $city);
 	$error ="";
 	/* === Get url ==== */
 	$url = "http://www.weather-forecast.com/locations/".$city."/forecasts/latest";
