@@ -4,7 +4,7 @@ require('simple_html_dom.php');
 
 	$city = $_GET['city'];
 
-	/* === Make sure there is no white space in user's input ==== */
+	/* === Make sure to replace white spaces with + for placement in url ==== */
 	$city = str_replace(' ', '+', $city);
 	$error ="";
 	/* === Get url ==== */
