@@ -6,20 +6,18 @@
 
  <div class="container">
     <div class="row">
-        <div class="col-lg-12 col-md-8">
+      <div class="col-lg-12 col-md-8">
         <form method="get">
-              <div class="form-group">
+            <div class="form-group">
                 <label for="city"></label>
                 <input type="text" class="form-control" name ="city" id="city" placeholder="London, Istanbul, Sydney" value="<?php echo $city;?>">
-              </div>
-
-              </div>
-              <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+            </div>
+          <button type="submit" class="btn btn-lg btn-primary">Submit</button>
         </form>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-8 col-sm-12">
-                    <div id="message">
-                        <?php showContent($city, $urlWithCity);?>
-                    </div>
+ </div>
+<div class="container">
+ <div class="row">
+   <div class="col-lg-12 col-md-8 col-sm-12">
+     <div id="message">
+        <?php showContent($city, $urlWithCity);?>
+     </div>
