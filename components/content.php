@@ -1,4 +1,4 @@
-<?php require_once 'functions.php' ?>
+<?php require_once 'config.php' ?>
 
 <div class="jumbotron">
   <h1 class="display-4 hidden-xs-down">What's the weather?</h1>
