@@ -1,13 +1,10 @@
 <?php
 
+include 'components/header.php';
 
-require 'functions.php';
+include 'components/content.php';
 
-include 'header.php';
-
-include 'content.php';
-
-include 'footer.php';
+include 'components/footer.php';
 
 
 ?>
