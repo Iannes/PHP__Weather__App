@@ -51,8 +51,8 @@ function curl($url) {
 
 			 // Work In Progress : Use third party icons instead of the ones provided by the API
 			switch ($icon) {
-				case "01n":
-				$wiClass.="wi-owm-night-800";
+				case "10d":
+				$wiClass.="wi-owm-night-200";
 				break;
 
 				case "02n":
@@ -70,9 +70,9 @@ function curl($url) {
 			echo '<img class='.$newIconUrl.' src='.$newIconUrl.'  alt='.$input.'-'.'Weather >'; // Default option -> Openweather api icons
 			}
            
-			echo'<i class='.$wiClass. "wi".' ></i>';
+			echo('<span class="wi"><i data-weather = "sunny" class='.$wiClass. ' ' ."wi".' ></i></span>');
 
-          }          
-  }
+        }          
+   }
 
  ?>
